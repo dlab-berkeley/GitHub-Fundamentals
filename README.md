@@ -14,8 +14,6 @@ In this workshop, we provide an short introduction to GitHub Desktop.
 ## Learning Objectives
 
 After this workshop, you will be able to:
-
-After this workshop, you will be able to:
 - Understand why we use version control and GitHub
 - Learn basic terms used in GitHub, such as clone, commit, push, pull, and merge
 - Learn how to clone repositories, make changes, and update changes on local and remote repositories
