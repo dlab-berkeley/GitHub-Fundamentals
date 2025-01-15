@@ -1,7 +1,7 @@
 # D-Lab GitHub Fundamentals Workshop
 
 
-This repository contains the materials for D-Lab [WorkshopName] workshop. 
+This repository contains the materials for D-Lab GitHub Fundamentals workshop. 
 
 ### Prerequisites
 No prior experience in either Git or GitHub is necessary.
