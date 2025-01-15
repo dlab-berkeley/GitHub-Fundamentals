@@ -7,9 +7,21 @@
 3. Learn how to clone repositories, make changes, and update changes on local and remote repositories
 4. Handle branches and resolve merge conflicts<br>
  ---
- 🔔**Question**: Have you ever made a mistake of overwriting a file or saving the wrong version?<br>
+### Icons Used in This Notebook" 
+🔔 **Question**: A quick question to help you understand what's going on.<br>
+🥊 **Challenge**: Interactive excersise. We'll work through these in the workshop!<br>
+💡 **Tip**: How to do something a bit more efficiently or effectively.<br>
+ ⚠️ **Warning:** Heads-up about tricky stuff or common mistakes.<br>
+📝 **Poll:** A Zoom poll to help you learn!<br>
+🎬 **Demo**: Showing off something more advanced <br>
+
+
+ 
+
  
 ## Version Control<br>
+ 🔔**Question**: Have you ever made a mistake of overwriting a file or saving the wrong version?<br>
+ 
 > Imagine that you’re collaborating with one of your labmates on a project. You’re both making changes to a document or a codebase. At one point, you both have changed the same lines in a particular document. How do you go about merging your changes?
 
 This is why we use version control. **Version control** is a system that manages and records changes to files over time. The most commonly used version control system is called **Git** (others include Mercurial and SVN). `git` keeps track of the differences in the repository each time you make a change. The entire history of the repository is tracked by `git`. If you realize you made a mistake in your code, you can always roll it back to a previous time point.
