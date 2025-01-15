@@ -8,7 +8,7 @@ No prior experience in either Git or GitHub is necessary.
 
 ## Workshop Goals
 
-In this workshop, we provide an short introduction to GitHub Desktop. 
+This introductory workshop covers basics of GitHub using GitHub Desktop, a GUI Git client. This workshop is designed for people with no previous experience with Git or GitHub. We will cover key concepts and workflows, including version control, repository creation, branching, merging, and collaboration. You'll gain hands-on experience navigating GitHub, managing repositories, and contributing to projects, making it easier to streamline your work and collaborate with others. 
 
 
 ## Learning Objectives
@@ -35,11 +35,9 @@ Complete the following steps:
 
 # Additional Resources
 
-Check out the following resources to learn more about [Workshop topics]:
+Check out the following resources to learn more about GitHub Fundamentals:
 
-* [Resource1](LinkToResource1): _Explain Resource 1_
-* [Resource2](LinkToResource2): _Explain Resource 2_
-* [...]
+* [GitHub Docs]([LinkToResource1](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop)): Documentation from GitHub on GitHub Desktop
 
 
 # About the UC Berkeley D-Lab
