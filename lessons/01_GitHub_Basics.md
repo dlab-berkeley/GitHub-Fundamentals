@@ -81,12 +81,14 @@ So, even in the personal workflow, there's a lot of individual steps needed just
  ![](../img/collaborative.png)<br>
  With Github, we do a **Pull Request** (PR). In a PR, we are requesting the `main` branch to pull the changes from the feature branch into the `main` branch. Github provides a very nice platform to handle PRs - users can view the PRs, comment on them, and ask for changes. Once the maintainer of the repo is satisfied, they can merge the PR and the `main` branch is updated with the changes in the feature branch.<br>
  The process of merging the changes in this way allows people to work in parallelon the `main` repo without modifying the `main` branch. Couple this with Github's platform for handling PRs, and you have a powerful tool for incorporating parallel changes into a repository.<br>
- Let's give this a shot! You are going to make a change to an existing repositoryand submit a pull request for it. We'll be working in a repository called`Git-Playground` which is available on the D-Lab Github at [thislink](https://github.com/dlab-berkeley/Git-Playground).<br>
+ Let's give this a shot! You are going to make a change to an existing repositoryand submit a pull request for it. We'll be working in a repository called `Git-Playground` which is available on the D-Lab Github at [thislink](https://github.com/dlab-berkeley/Git-Playground).<br>
  
 ### 1. **Forking the repository.** 
-An extra step you can take when working on a collaborative repository is to **fork** the repo. This creates a copy of the   repository on your own Github account, which you're free to change at will. You can still, however, pull changes from the original repo, and make pull requests with your own changes. Go ahead and fork the repo that I just created. See the image below for where to find the button:<br>
- ![forking](../img/fork.png)<br>
- 
+An extra step you can take when working on a collaborative repository is to **fork** the repo. This creates a copy of the repository on your own Github account, which you're free to change at will. You can still, however, pull changes from the original repo, and make pull requests with your own changes. Go ahead and fork the repo that I just created. See the image below for where to find the button:<br>
+ ![forking](../images/fork.png)<br>
+
+ If you try to commit on a repository that you don't have access to, GitHub Desktop will ask you to create a fork.
+  ![forking2](../images/fork2.png)<br>
 ### 2. **Cloning.** 
 Clone the forked repo to your local machine.<br>
  
