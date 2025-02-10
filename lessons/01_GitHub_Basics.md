@@ -83,18 +83,24 @@ So, even in the personal workflow, there's a lot of individual steps needed just
  The process of merging the changes in this way allows people to work in parallelon the `main` repo without modifying the `main` branch. Couple this with Github's platform for handling PRs, and you have a powerful tool for incorporating parallel changes into a repository.<br>
  Let's give this a shot! You are going to make a change to an existing repositoryand submit a pull request for it. We'll be working in a repository called`Git-Playground` which is available on the D-Lab Github at [thislink](https://github.com/dlab-berkeley/Git-Playground).<br>
  
-1. **Forking the repository.** An extra step you can take when working on a   collaborative repository is to **fork** the repo. This creates a copy of the   repository on your own Github account, which you're free to change at will.   You can still, however, pull changes from the original repo, and make pull requests with your own changes. Go ahead and fork the repo that I just created. See the image below for where to find the button:<br>
+### 1. **Forking the repository.** 
+An extra step you can take when working on a collaborative repository is to **fork** the repo. This creates a copy of the   repository on your own Github account, which you're free to change at will. You can still, however, pull changes from the original repo, and make pull requests with your own changes. Go ahead and fork the repo that I just created. See the image below for where to find the button:<br>
  ![forking](../img/fork.png)<br>
  
-2. **Cloning.** Clone the forked repo to your local machine.<br>
+### 2. **Cloning.** 
+Clone the forked repo to your local machine.<br>
  
-3. **Branching.** Create a new branch on your local machine using the command   `git checkout -b BRANCH_NAME` or `git branch -c BRANCH_NAME`.   Choose a branch name that feels appropriate to   you. Run `git status` afterward to see how things changed.   You can check out which branches you have, and which you are currently on,   by running `git branch`.<br>
+### 3. **Branching.** 
+Create a new branch on your local machine. Choose a branch name that feels appropriate to you.<br>
  
-4. **Commit a change.** Create a new file with some text, stage it, and commit   it.<br>
+### 4. **Commit a change.** 
+Create a new file with some text, stage it, and commit it.<br>
 
-5. **Push the change.** Push the change on this branch to your remote repo.   You'll still use `git push`, but the command is slightly different: it will   be `git push origin BRANCH_NAME`. You're pushing to the remote (`origin`) on   the `BRANCH_NAME` branch.<br>
+### 5. **Push the change.** 
+Push the change on this branch to your remote repo. <br>
 
-6. **Make the Pull Request.** Go to the `Git-Playground` repository on Github.   You should see something like the following image pop up. Github can already   tell you made a change, and gives you the option to make a pull request! If   you don't see this button, no worries - go to the "Pull Requests" button next   to Issues, and you can manually make one there. Follow the instructions for   making the pull request, and we'll merge a couple of them!<br>
+### 6. **Make the Pull Request.** 
+Go to the `Git-Playground` repository on Github. You should see something like the following image pop up. Github can already tell you made a change, and gives you the option to make a pull request! If you don't see this button, no worries - go to the "Pull Requests" button next to Issues, and you can manually make one there. Follow the instructions for making the pull request, and we'll merge a couple of them!<br>
 
  ![pr](../img/pr.png)<br>
  
@@ -102,24 +108,12 @@ So, even in the personal workflow, there's a lot of individual steps needed just
  
 * **Local:** If you want to delete local git-related information (like  branches and versions), all you have to do is delete the `.git` directory in  the root-directory of your repository. Note that `.git` directories are hidden  by default, so you'll need to be able to view hidden files to delete it.  If you want to delete everything (data, code, etc.), just delete the whole  directory.<br>
  
-* **Remote** : If you want to delete a remote repository, navigate to GitHub andgo to Settings, then Danger Zone (at the bottom of the Settings page). Warning:Once you delete a repository, there is no going back.<br>
+* **Remote** : If you want to delete a remote repository, navigate to GitHub and go to Settings, then Danger Zone (at the bottom of the Settings page). Warning:Once you delete a repository, there is no going back.<br>
  
-# Learning more<br>
- That's the workflow! There are other `git` practices we didn't cover - handlingmerge conflicts, rebasing, etc. As you get deeper into `git`, you can peruse theGithub documentation for tips on how to do these more advanced `git` commands.
 
-
- 
  There are several different workflows in which you might imagine using `git`, particularly in an academic setting. These include:<br>
  
 1. Working on a repository that is your own repo. You expect that you will generally be the only person developing code for this repository. <br>
 2. Working on a repository that several people - perhaps some collaborators - are working on concurrently. <br>
 3. Working on a repository that *many* people (e.g., at least dozens) are involved in. This may be, for example, an open-source project to which you contribute changes. We will not cover this approach in this workshop, as the details may be specific to the project you're working on. However, the principles from approach 
 #2 hold here.<br>
-
-## Personal Workflow<br>
-  
- 
- Each step in the Personal workflow is actually comprised of a set of smallersteps. Before we go through each step, we need to make a distinction between twokinds of repositories: there's the local repository and the remote repository.The local repository is easy: that's the version of the code that sits on yourcomputer. The remote repository, meanwhile, is any version of the repositorythat lies on some other machine. In this context, it's almost always going to refer to the version that sits on Github's servers.<br>
- 
- 
- 
