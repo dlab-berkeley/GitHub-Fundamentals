@@ -37,7 +37,7 @@ Complete the following steps:
 
 Check out the following resources to learn more about GitHub Fundamentals:
 
-* [GitHub Docs]([LinkToResource1](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop)): Documentation from GitHub on GitHub Desktop
+* [GitHub Docs](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop): Documentation from GitHub on GitHub Desktop
 
 
 # About the UC Berkeley D-Lab
