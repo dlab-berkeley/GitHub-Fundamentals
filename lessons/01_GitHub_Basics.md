@@ -132,10 +132,9 @@ Go to your forked `Git-Playground` repository on GitHub. GitHub can already tell
  
 * **Remote** : If you want to delete a remote repository, navigate to GitHub and go to Settings, then Danger Zone (at the bottom of the Settings page). Warning:Once you delete a repository, there is no going back.<br>
  
-
- There are several different workflows in which you might imagine using `git`, particularly in an academic setting. These include:<br>
+# Key Points
+ There are several different workflows in which you might imagine using `git` and `GitHub`, particularly in an academic setting. These include:<br>
  
 1. Working on a repository that is your own repo. You expect that you will generally be the only person developing code for this repository. <br>
 2. Working on a repository that several people - perhaps some collaborators - are working on concurrently. <br>
-3. Working on a repository that *many* people (e.g., at least dozens) are involved in. This may be, for example, an open-source project to which you contribute changes. We will not cover this approach in this workshop, as the details may be specific to the project you're working on. However, the principles from approach 
-#2 hold here.<br>
+3. Working on a repository that *many* people (e.g., at least dozens) are involved in. This may be, for example, an open-source project to which you contribute changes. We will not cover this approach in this workshop, as the details may be specific to the project you're working on. However, the principles from approach #2 hold here.<br>
