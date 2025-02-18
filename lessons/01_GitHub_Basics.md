@@ -105,7 +105,7 @@ Cloning a repository means taking a remote repository, and copying it to our loc
 For this section, clone the forked repo of `Git-Playground` to your local machine. Make sure you click `To contribute to the parent project` <br>
 
 ### 3. **Branching.** 
-Create a new branch on your local machine. Choose a branch name that feels appropriate to you.<br>
+Create a new branch on your local machine. On GitHub Desktop, you can do this by clicking on `Current Branch`. Under `Branches`, there is button with `New Branch`.  Choose a branch name that feels appropriate to you.<br>
  
 ### 4. **Commit a change.** 
 Create a new file with some text, stage it, and commit it.<br>
