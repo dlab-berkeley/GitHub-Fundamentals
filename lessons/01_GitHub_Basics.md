@@ -31,7 +31,7 @@ If you have used Google Docs, you likely have already used version control. Goog
 ## Git Workflows: Personal Workflow
 There are a variety of workflows you may employ when using Git to track your changes. The most common, particularly for academic settings, is the **personal workflow**.
 
-![personal_workflow](../images/personal.png)<br>
+<br><img src="../images/personal.png" alt="forking" width="50%">
 
 In the personal workflow, you are largely going to be the only person adding to the repository. You have one **branch**, or version of your project. It is called the `main` branch. Every time you make changes to the code, you'll add them to the `main` branch. 
 
@@ -50,7 +50,7 @@ A **repository** (or repo for short) is a central place where all the files rela
 We need to make a distinction between two kinds of repositories: there's the local repository and the remote repository. **The local repository** is the version of the code that is stored on your computer. **The remote repository**, meanwhile, is any version of the repository that lies on some other machine. In this context, remote repository is almost always going to refer to the version that is on on GitHub's servers. <br>
 
 So, when we're making changes to a repository, there's two versions that need to stay in sync with each other: the local and the remote. The steps we outline keep track of those changes between both cases, while also keeping track of the entire history. GitHub provides a nice platform on which we can peruse the history of a repository.<br>
- ![committing](../images/workflow.png)<br>
+<br><img src="../images/workflow.png" alt="forking" width="50%"><br>
 
 1. **Commit**: Save your selected changes with a description.
 2. **Push**: Upload your saved changes to GitHub for others to see.
@@ -99,19 +99,16 @@ Now, we might be interested in adding a new feature to a code repository. When w
 * **Branches** are within the same repository. Branches make it easier collaboration among team members who have access to the repository. <br>
 * **Forks** create a completely separate copy of the repository, which is useful for outside contributors.
 
- ![](../images/collaborative.png)<br>
-   
-
- <br>
+<br><img src="../images/collaborative.png" alt="forking" width="50%">
  
 ### 1. **Forking the Repository** 
 An extra step you can take when working on a collaborative repository is to **fork** the repo. This creates a copy of the repository on your own GitHub account, which you're free to change at will. You can still, however, pull changes from the original repo, and make pull requests with your own changes. Go ahead and fork the repo [`Git-Playground`](https://github.com/dlab-berkeley/Git-Playground). See the image below for where to find the button:<br>
- ![forking](../images/fork.png)<br>
- <br>
+<img src="../images/fork.png" alt="forking" width="50%"><br>
 
  If you try to commit on a repository that you don't have access to, GitHub Desktop will ask you to create a fork.  <br>
 
-  ![forking2](../images/fork2.png)<br>
+<br><img src="../images/fork2.png" alt="forking" width="50%"><br>
+
 ### 2. **Cloning** 
 Cloning a repository means taking a remote repository, and copying it to our local machine to create a local repository. Under `Current Repository`, click `add` and select `Clone Repository`. You can clone your own repository or any publically avaialable repository.  
 For this section, clone the forked repo of `Git-Playground` to your local machine. Make sure you click `To contribute to the parent project` <br>
