@@ -6,6 +6,8 @@ This repository contains the materials for D-Lab GitHub Fundamentals workshop.
 ### Prerequisites
 No prior experience in either Git or GitHub is necessary.
 
+Check out D-Lab’s [Workshop Catalog](https://dlab-berkeley.github.io/dlab-workshops/) to browse all workshops, see what’s running now, and review prerequisites.
+
 ## Workshop Goals
 
 This introductory workshop covers basics of GitHub using GitHub Desktop, a GUI Git client. This workshop is designed for people with no previous experience with Git or GitHub. We will cover key concepts and workflows, including version control, repository creation, branching, merging, and collaboration. You'll gain hands-on experience navigating GitHub, managing repositories, and contributing to projects, making it easier to streamline your work and collaborate with others. 
