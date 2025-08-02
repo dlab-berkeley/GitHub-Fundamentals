@@ -3,7 +3,7 @@
 
 This repository contains the materials for D-Lab GitHub Fundamentals workshop. 
 
-### Prerequisites
+## Prerequisites
 No prior experience in either Git or GitHub is necessary.
 
 Check out D-Lab’s [Workshop Catalog](https://dlab-berkeley.github.io/dlab-workshops/) to browse all workshops, see what’s running now, and review prerequisites.
